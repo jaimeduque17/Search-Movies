@@ -12,7 +12,7 @@ export class Movie extends Component {
 	}
 
 	render() {
-		const {id, poster, title, year } = this.props
+		const { id, poster, title, year } = this.props
 
 		return (
 			<Link to={`/detail/${id}`} className="card">
@@ -22,8 +22,8 @@ export class Movie extends Component {
 							alt={title}
 							src={poster}
 						/>
-    			</figure>
-  			</div>
+					</figure>
+				</div>
 				<div className="card-content">
 					<div className="media">
 						<div className="media-content">
@@ -34,6 +34,5 @@ export class Movie extends Component {
 				</div>
 			</Link>
 		)
-	
 	}
 }
