@@ -19,7 +19,7 @@ export class Home extends Component {
 
     render() {
         return (
-            <div>
+            <div style={{paddingTop: "30vh"}}>
                 <Title>Search Movies</Title>
                 <div className="SearchForm-wrapper">
                     <SearchForm onResults={this._handleResults} />
