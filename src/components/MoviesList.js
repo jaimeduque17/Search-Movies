@@ -10,11 +10,11 @@ export class MoviesList extends Component {
     render() {
         const { movies } = this.props
         return (
-            <div className='MoviesList'>
+            <div className='MoviesList' style={{ paddingTop: '100px' }}>
                 {
                     movies.map(movie => {
                         return (
-                            <div key={movie.imdbID} className='MoviesList-item'>
+                            <div key={movie.imdbID} className='MoviesList-item' style={{ alignItems: 'center' }}>
                                 <Movie
                                     id={movie.imdbID}
                                     title={movie.Title}
@@ -25,7 +25,7 @@ export class MoviesList extends Component {
                         )
                     })
                 }
-            </div>
+            </div >
         )
     }
 }
