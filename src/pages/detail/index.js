@@ -43,8 +43,7 @@ export class Detail extends Component {
         return (
             <div className="Detail" style={{
                 display: 'flex',
-                justifContent: 'center',
-                paddingLeft: '350px'
+                justifyContent: 'center'
             }}>
                 <div className="Detail__card" style={{
                     display: 'flex',
