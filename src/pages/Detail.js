@@ -84,7 +84,7 @@ export class Detail extends Component {
                         transform: `scale(0.9) translateY(-20px)`
                     }}/>
                 </div>
-                <div className="Detail__column Detail__description" style={{marginTop: '120px'}}>
+                <div className="Detail__column Detail__description" style={{marginTop: '130px'}}>
                     <h2 className="Detail__title title">{Title}</h2>
                     <div className="tags">
                         <p className="tag is-rounded">{Released}</p>
