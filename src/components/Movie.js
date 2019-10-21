@@ -16,7 +16,7 @@ export class Movie extends Component {
 
 		return (
 			<Link to={`/detail/${id}`} className="card">
-				<div className="card-image" style={{ paddingLeft: '100px' }}>
+				<div className="card-image" style={{ paddingLeft: '100px'}}>
 					<figure className="image" style={{
 						position: 'relative',
 						width: '75%',
