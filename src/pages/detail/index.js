@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types'
 
-import { ButtonBackToHome } from '../components/ButtonBackToHome'
+import { ButtonBackToHome } from '../../components/buttonBackToHome'
 
 const API_KEY = '20cb1df1'
 
