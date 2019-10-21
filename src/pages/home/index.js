@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import { Title } from '../components/Title';
-import { SearchForm } from '../components/SearchForm';
-import { MoviesList } from '../components/MoviesList';
+import { Title } from '../../components/title';
+import { SearchForm } from '../../components/searchForm';
+import { MoviesList } from '../../components/moviesList';
 
 export class Home extends Component {
     state = { usedSearch: false, results: [] }
