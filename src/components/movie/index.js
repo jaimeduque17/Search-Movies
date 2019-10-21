@@ -26,7 +26,7 @@ export class Movie extends Component {
 					}}>
 						<img
 							alt={title}
-							src={poster}
+							src={poster === 'N/A' ? 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Imagen_no_disponible.svg/1024px-Imagen_no_disponible.svg.png' : poster}
 							style={{
 								position: 'relative',
 								zIndex: 2,
@@ -39,7 +39,7 @@ export class Movie extends Component {
 						/>
 						<img
 							alt={title}
-							src={poster}
+							src={poster === 'N/A' ? 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Imagen_no_disponible.svg/1024px-Imagen_no_disponible.svg.png' : poster}
 							style={{
 								width: '100%',
 								top: 0,

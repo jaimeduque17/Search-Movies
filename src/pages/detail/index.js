@@ -64,7 +64,7 @@ export class Detail extends Component {
                   paddingRight: '30px',
                   paddingLeft: '30px'
               }}>
-                    <img src={Poster} alt={Title} className="Detail__poster Detail__poster_blured" style={{
+                    <img src={Poster === 'N/A' ? 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Imagen_no_disponible.svg/1024px-Imagen_no_disponible.svg.png' : Poster} alt={Title} className="Detail__poster Detail__poster_blured" style={{
                         width: '100%',
                         top: 0,
                         left: 0,
@@ -74,7 +74,7 @@ export class Detail extends Component {
                         zIndex: 1,
                         opacity: .8
                     }} />
-                    <img src={Poster} alt={Title} className="Detail__poster" style={{
+                    <img src={Poster === 'N/A' ? 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Imagen_no_disponible.svg/1024px-Imagen_no_disponible.svg.png' : Poster} alt={Title} className="Detail__poster" style={{
                         position: 'relative',
                         width: '100%',
                         top: 0,

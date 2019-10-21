@@ -26,7 +26,7 @@ export class SearchForm extends Component {
 
     render() {
         return (
-            <form onSubmit={this._handleSubmit}>
+            <form className="form" onSubmit={this._handleSubmit}>
                 <div className="field has-addons">
                     <div className="control has-icons-left has-icons-right ">
                         <input
@@ -34,7 +34,7 @@ export class SearchForm extends Component {
                             onChange={this._handleChange}
                             type="text"
                             placeholder="Movie to see.." />
-                        <span class="icon is-small is-left">
+                        <span className="icon is-small is-left">
                             <img alt="magnifying-glass" src="https://img.icons8.com/plasticine/100/000000/google-web-search.png"/>
                         </span>
                     </div>

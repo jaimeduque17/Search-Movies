@@ -19,7 +19,7 @@ export class MoviesList extends Component {
                                     id={movie.imdbID}
                                     title={movie.Title}
                                     year={movie.Year}
-                                    poster={movie.Poster}
+                                    poster={movie.Poster === 'N/A' ? 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Imagen_no_disponible.svg/1024px-Imagen_no_disponible.svg.png' : movie.Poster}
                                 />
                             </div>
                         )
