@@ -14,7 +14,7 @@ export class MoviesList extends Component {
                 {
                     movies.map(movie => {
                         return (
-                            <div key={movie.imdbID} className='MoviesList-item'>
+                            <div key={movie.imdbID} className='MoviesList-item' style={{ alignItems: 'center' }}>
                                 <Movie
                                     id={movie.imdbID}
                                     title={movie.Title}
@@ -25,7 +25,7 @@ export class MoviesList extends Component {
                         )
                     })
                 }
-            </div>
+            </div >
         )
     }
 }
